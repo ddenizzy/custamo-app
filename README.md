@@ -39,6 +39,18 @@ A personal macOS menu bar assistant with a retro pixel-art look. It lives behind
 - **Screen saver:** a now-playing screen with the album cover and a live audio equalizer.
 - **Themes:** 15+ pixel themes and backgrounds, plus a mini game.
 
+## How it connects
+
+- **The app itself:** a small web server that runs only on the Mac (`127.0.0.1:5050`), shown in a native window from the menu bar. Nothing is open to the internet, and data is stored in local JSON files with a daily backup to iCloud Drive.
+- **Mail:** the official Gmail API with OAuth, read-only. Several inboxes can be connected, and logins stay on the Mac.
+- **Homework:** the university learning platform's (Brightspace) personal iCalendar feed.
+- **Campus buses:** timetables read from the transit agency's public route pages, plus live bus positions from its public real-time feed (ETA SPOT). The Mac's own location (Core Location) picks the closest stop.
+- **Smart lights:** Govee's cloud API with a personal API key.
+- **HeadRush Flex Prime (guitar amp):** over the home Wi-Fi network through the unit's built-in web API, to switch between saved rigs. It never changes settings or levels.
+- **iPhone:** the gym plan syncs through Apple Reminders, and iCloud carries it to the phone.
+- **Music:** reads what Spotify or Apple Music is playing through AppleScript (read-only), for the now-playing screen saver and its live equalizer.
+- **AI (Claude):** the language tasks (sorting and summarizing mail, the daily brief, turning notes into tasks, reading orders and subscriptions from email, recipes) run through Claude Code on the Mac. All of these calls go through one module, so the AI can be switched off or replaced without touching the rest. Lights, buses, calendar, gym, the screen saver and themes work without it.
+
 ## Built with
 
 Python and Flask (local server), pywebview and PyObjC (native macOS window, menu bar item, notifications, location), JavaScript, HTML and CSS (interface), Swift (Core Audio tap, screen saver), Gmail API, iCalendar feeds, Leaflet maps, Govee API, and an LLM (Claude) for summaries, parsing and recipes. Developed with AI-assisted programming (Claude Code).
