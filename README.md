@@ -41,8 +41,8 @@ A personal macOS menu bar assistant with a retro pixel-art look. It lives behind
 
 ## Engineering angle
 
-- **Inventory management:** the kitchen tracks stock from delivery records, with shelf life per item, first-expiring-first-out reminders and automatic removal of spoiled food, so less food is wasted.
-- **Service reliability:** the bus feature compares live arrivals with the timetable and turns them into one decision: when to leave. It grew into a separate on-time performance study of the campus bus system.
+- **Inventory management:** the kitchen tracks stock from delivery records, with shelf life per item, days-left tags on food that spoils and automatic removal of expired items, so less food is wasted.
+- **Service reliability:** the bus feature compares live arrivals with the timetable and turns them into one decision: when to leave. It is now the starting point of a separate on-time performance study of the campus bus system.
 - **Scheduling and planning:** deadlines from several sources are merged into one prioritised plan with alerts, and the gym plan adapts week by week.
 - **Process automation:** recurring manual work (reading order emails, logging workouts, tracking subscriptions) runs on its own, with a person confirming only the decisions that matter.
 
