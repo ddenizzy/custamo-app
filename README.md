@@ -39,6 +39,13 @@ A personal macOS menu bar assistant with a retro pixel-art look. It lives behind
 - **Screen saver:** a now-playing screen with the album cover and a live audio equalizer.
 - **Themes:** 15+ pixel themes and backgrounds, plus a mini game.
 
+## Engineering angle
+
+- **Inventory management:** the kitchen tracks stock from delivery records, with shelf life per item, first-expiring-first-out reminders and automatic removal of spoiled food, so less food is wasted.
+- **Service reliability:** the bus feature compares live arrivals with the timetable and turns them into one decision: when to leave. It grew into a separate on-time performance study of the campus bus system.
+- **Scheduling and planning:** deadlines from several sources are merged into one prioritised plan with alerts, and the gym plan adapts week by week.
+- **Process automation:** recurring manual work (reading order emails, logging workouts, tracking subscriptions) runs on its own, with a person confirming only the decisions that matter.
+
 ## How it connects
 
 - **The app itself:** a small web server that runs only on the Mac (`127.0.0.1:5050`), shown in a native window from the menu bar. Nothing is open to the internet, and data is stored in local JSON files with a daily backup to iCloud Drive.
