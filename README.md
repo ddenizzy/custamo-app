@@ -8,13 +8,21 @@ A personal macOS menu bar assistant with a retro pixel-art look. It lives behind
 
 ## Screenshots
 
-*Personal details (mail, tasks, deadlines, bus stops) are blurred.*
+*Personal details (mail, tasks, deadlines, calendar events) are blurred.*
 
 ![Home](screenshots/home.png)
+
+| Live bus map | Bus timetables |
+|---|---|
+| ![Live bus map](screenshots/bus-map.png) | ![Bus timetables](screenshots/bus-times.png) |
 
 | Kitchen | Lights |
 |---|---|
 | ![Kitchen](screenshots/kitchen.png) | ![Lights](screenshots/lights.png) |
+
+| Gym | Calendar |
+|---|---|
+| ![Gym](screenshots/gym.png) | ![Calendar](screenshots/calendar.png) |
 
 ## What it does
 
