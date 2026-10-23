@@ -6,6 +6,16 @@ A personal macOS menu bar assistant with a retro pixel-art look. It lives behind
 
 > The source code is private because the app connects to my own accounts. This page shows what it does and how it is built.
 
+## Screenshots
+
+*Personal details (mail, tasks, deadlines, bus stops) are blurred.*
+
+![Home](screenshots/home.png)
+
+| Kitchen | Lights |
+|---|---|
+| ![Kitchen](screenshots/kitchen.png) | ![Lights](screenshots/lights.png) |
+
 ## What it does
 
 - **Home summary:** today at a glance, what is due in the next two days and the week ahead.
