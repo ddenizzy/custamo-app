@@ -49,11 +49,11 @@ A personal macOS menu bar assistant with a retro pixel-art look. It lives behind
 - **HeadRush Flex Prime (guitar amp):** over the home Wi-Fi network through the unit's built-in web API, to switch between saved rigs. It never changes settings or levels.
 - **iPhone:** the gym plan syncs through Apple Reminders, and iCloud carries it to the phone.
 - **Music:** reads what Spotify or Apple Music is playing through AppleScript (read-only), for the now-playing screen saver and its live equalizer.
-- **AI (Claude):** the language tasks (sorting and summarizing mail, the daily brief, turning notes into tasks, reading orders and subscriptions from email, recipes) run through Claude Code on the Mac. All of these calls go through one module, so the AI can be switched off or replaced without touching the rest. Lights, buses, calendar, gym, the screen saver and themes work without it.
+- **AI:** the language tasks (sorting and summarizing mail, the daily brief, turning notes into tasks, reading orders and subscriptions from email, recipes) run through an LLM. All of these calls go through one module, so the AI can be switched off or replaced without touching the rest. Lights, buses, calendar, gym, the screen saver and themes work without it.
 
 ## Built with
 
-Python and Flask (local server), pywebview and PyObjC (native macOS window, menu bar item, notifications, location), JavaScript, HTML and CSS (interface), Swift (Core Audio tap, screen saver), Gmail API, iCalendar feeds, Leaflet maps, Govee API, and an LLM (Claude) for summaries, parsing and recipes. Developed with AI-assisted programming (Claude Code).
+Python and Flask (local server), pywebview and PyObjC (native macOS window, menu bar item, notifications, location), JavaScript, HTML and CSS (interface), Swift (Core Audio tap, screen saver), Gmail API, iCalendar feeds, Leaflet maps, Govee API, and an LLM for summaries, parsing and recipes. Developed with AI-assisted programming (Claude Code).
 
 ## Author
 
